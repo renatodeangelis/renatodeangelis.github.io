@@ -1,23 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed&display=swap);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Fira+Mono&display=swap);
 
 body {
     margin: auto;
-    padding-right: 1em;
-    padding-left: 1em;
-    max-width: 88em;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    max-width: 40em;
     color: black;
-    font-family: IBM Plex Sans, sans-serif;
-    font-size: 150%;
+    font-family: PT Serif, sans-serif;
+    font-size: 100%;
     line-height: 140%;
     color: #333;
 }
 
-h1, h2, h3, h4, h5 { font-family: IBM Plex Sans;
+h1, h2, h3, h4, h5 { font-family: PT Serif, sans-serif;
                      font-weight: bold;
                      border-bottom: 1px dotted black;
-                     color: #7a5ada; }
+                     color: #374f2f; }
 h1 {
         font-size: 140%;
 }
@@ -45,4 +48,22 @@ h1.title {
         padding-bottom: 0.2em;
         text-align: left;
         border: none;
+}
+
+/* Styling for the list of publications */
+.publications {
+    list-style-type: square;
+    margin: 0;
+    padding: 0 20px; /* Indent the main list */
+}
+.publications li {
+    padding-top: 10px; /* Add padding above each list item */
+}
+
+/* Styling for awards etc. */
+.award {
+    font-size: 0.9em; /* Smaller font size */
+    color: gray; /* Optional: make it gray for emphasis */
+    margin-left: 20px; /* Indent the award text */
+    list-style-type: none; /* Remove bullet points */
 }
