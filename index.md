@@ -1,7 +1,7 @@
-# MadeUpName
-## PhD Student, MadeUpPlace
+# Renato de Angelis
 
-email: __madeUpName@madeUpDomain.edu__
+email: rdeangelis@uchicago.edu
+
 
 ## Research
 
